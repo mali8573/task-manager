@@ -1,44 +1,52 @@
-# TaskManagment
+Task Manager Application
+אפליקציית ניהול משימות מתקדמת שנבנתה ב-Vue 3 בשילוב Vuetify ו-Pinia. האפליקציה מאפשרת למשתמשים לנהל את המטלות היומיות שלהם בצורה נוחה, מסודרת ומאורגנת לפי קטגוריות.
 
-This template should help get you started developing with Vue 3 in Vite.
+תכונות עיקריות
+ניהול משימות: הוספה, מחיקה ועדכון סטטוס משימות.
 
-## Recommended IDE Setup
+קטגוריות: ארגון משימות תחת קטגוריות מוגדרות (עבודה, אישי, קניות, לימודים, בית).
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+חיפוש וסינון: חיפוש דינמי לפי שם המשימה וסינון משימות לפי קטגוריה.
 
-## Recommended Browser Setup
+ממשק משתמש: עיצוב רספונסיבי ומודרני באמצעות ספריית Vuetify.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+ניהול מצב (State Management): שימוש ב-Pinia לניהול ריכוזי של נתוני המשימות.
 
-## Customize configuration
+טכנולוגיות בשימוש
+Vue 3 (Composition API)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Vuetify (UI Component Framework)
 
-## Project Setup
+Pinia (State Management)
 
-```sh
+Vite (Build Tool)
+
+מבנה הפרויקט
+TaskManager.vue: רכיב האב המנהל את הלוגיקה והקשר בין הרכיבים.
+
+TaskInput.vue: טופס להוספת משימה חדשה עם ולידציה.
+
+TaskFilters.vue: רכיב סינון וחיפוש.
+
+TaskTable.vue: טבלה להצגת המשימות מקובצות לפי קטגוריות.
+
+taskStore.js: ה-Store המנהל את הלוגיקה העסקית והנתונים.
+
+התקנה והרצה
+שכפול הפרויקט מה-Repository:
+
+Bash
+git clone https://github.com/mali8573/task-manager.git
+כניסה לתיקיית הפרויקט:
+
+Bash
+cd task-manager
+התקנת ספריות התלויות:
+
+Bash
 npm install
-```
+הרצת הפרויקט במצב פיתוח:
 
-### Compile and Hot-Reload for Development
-
-```sh
+Bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+פרויקט זה נכתב בהתאם להנחיות פיתוח ב-Vue 3
