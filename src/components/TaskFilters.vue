@@ -2,7 +2,7 @@
   <v-card class="pa-4 mb-4">
     <v-row align="center">
       <v-col cols="12" md="12">
-        <h2 class="text-h3 font-weight-bold mb-0">Filters</h2>
+        <h3 class="text-h3 font-weight-bold mb-0">Filters</h3>
       </v-col>
       <v-col cols="12" md="6">
         <v-text-field

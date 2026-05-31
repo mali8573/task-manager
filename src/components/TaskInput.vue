@@ -2,7 +2,7 @@
   <v-card class="pa-4 mb-4">
     <v-row align="start">
       <v-col cols="12" md="12">
-        <h2 class="text-h3 font-weight-bold mb-0">Add New Task</h2>
+        <h3 class="text-h3 font-weight-bold mb-0">Add New Task</h3>
       </v-col>
       <v-col cols="12" md="5">
         <v-text-field

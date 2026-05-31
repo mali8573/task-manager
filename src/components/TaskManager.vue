@@ -1,7 +1,7 @@
 <template>
 <div class="bg-primary pa-4  d-flex align-center" style="background-color: #673ab7; width: 100%;">
     <div style="width: 100%; margin-left: 30px ; display: flex; align-items: center;">
-              <v-icon color="white" class="mr-1" size="25">mdi-checkbox-marked-outline</v-icon>
+              <v-icon color="white" class="mr-1" size="30">mdi-checkbox-marked-outline</v-icon>
           <span class="text-white font-weight-bold" style="font-size: 14px; letter-spacing: 0.5px">
             Task Manager
           </span>
